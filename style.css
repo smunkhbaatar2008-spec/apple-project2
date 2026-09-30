@@ -2,7 +2,6 @@ body {
   display: flex;
   flex-direction: column;
   width: 1920px;
-  background-color: black;
 }
 header {
   display: flex;
@@ -10,7 +9,6 @@ header {
   height: 44px;
   background-color: white;
   gap: 8px;
-  position: fixed;
   top: 8px;
   justify-content: center;
   align-items: center;
@@ -94,6 +92,519 @@ header {
   justify-content: center;
   align-items: center;
 }
-.header-accessories{
-    
+.header-accessories {
+  width: 66px;
+  height: 44px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-support {
+  width: 44px;
+  height: 44px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.magnifiying-class-icon {
+  width: 15px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.store-icon {
+  width: 30px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Apple-all-content {
+  width: 1920px;
+  height: 3160px;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.apple-content-1 {
+  width: 100%;
+  height: 692px;
+  display: flex;
+  flex-direction: column;
+  justify-content:;
+  align-items: center;
+  color: white;
+  background-image: url(./ec3175b4a85620366114b7dc1d62789aa36c0536.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  gap: 20px;
+  padding-top: 55px;
+}
+.apple-content-1-1 {
+  width: 405px;
+  height: 60px;
+  font-size: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.apple-content-1-2 {
+  width: 405px;
+  height: 32px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.apple-content-1-3 {
+  display: flex;
+  gap: 16px;
+}
+.content-1-3-1 {
+  width: 123px;
+  height: 44px;
+  background-color: #0071e3;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+.content-1-3-2 {
+  width: 68px;
+  height: 44px;
+  border: 1px solid #2997ff;
+  border-radius: 999px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2997ff;
+  font-size: 16px;
+}
+.apple-content-2 {
+  width: 100%;
+  height: 692px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(./6e2272f55593e27e01766f0a588a5585328895e1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-top: 55px;
+  gap: 20px;
+}
+.apple-content-2-1 {
+  width: 405px;
+  height: 60px;
+  font-size: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.apple-content-2-2 {
+  width: 405px;
+  height: 32px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.apple-content-2-3 {
+  width: 207px;
+  height: 44px;
+  gap: 16px;
+  display: flex;
+}
+.content-2-3-1 {
+  width: 123px;
+  height: 44px;
+  background-color: white;
+  gap: 10px;
+  color: black;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-2-3-2 {
+  width: 68px;
+  height: 44px;
+  border: 1px solid white;
+  border-radius: 999px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+}
+.apple-content-3 {
+  width: 100%;
+  height: 1764px;
+  display: flex;
+  gap: 12px;
+}
+.apple-content-3-1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 12px;
+}
+.apple-content-3-1-1 {
+  width: 100%;
+  height: 580px;
+  background-image: url(./f34a75b3ce6969be90a261c4e631ecdfff8d60c9.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 58px;
+  gap: 12px;
+}
+.content-3-1-1-1 {
+  width: 430px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  gap: 8px;
+}
+.content-3-1-1-2 {
+  width: 332px;
+  height: 25px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-3-1-1-3 {
+  display: flex;
+  width: 199px;
+  height: 40px;
+  gap: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-3-1-1-3-1 {
+  width: 115px;
+  height: 40px;
+  background-color: #0071e3;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.content-3-1-1-3-2 {
+  width: 68px;
+  height: 44px;
+  border: 1px solid #2997ff;
+  border-radius: 999px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2997ff;
+  font-size: 16px;
+}
+.colorful-air {
+  width: fit-content;
+  background: linear-gradient(to right, rgb(49, 143, 244), blue, darkblue);
+  background-clip: text;
+  color: transparent;
+}
+.apple-content-3-1-2 {
+  width: 100%;
+  height: 580px;
+  background-image: url(./d6e544be6057fe0fa0741e7386c61a4fb5ddb17f.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 55px;
+}
+.content-3-1-2-1 {
+  width: 152px;
+  height: 39px;
+  gap: 8px;
+  font-size: 32px;
+}
+.content-3-1-2-2 {
+  width: 152px;
+  height: 18px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-3-1-2-3 {
+  width: 322px;
+  height: 25px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-3-1-2-4 {
+  width: 199px;
+  height: 40px;
+  gap: 16px;
+  display: flex;
+}
+.content-3-1-2-4-1 {
+  width: 115px;
+  height: 40px;
+  background-color: #0071e3;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.content-3-1-2-4-2 {
+  width: 68px;
+  height: 44px;
+  border: 1px solid #2997ff;
+  border-radius: 999px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2997ff;
+  font-size: 16px;
+}
+.apple-content-3-1-3 {
+  width: 100%;
+  height: 580px;
+  background-image: url(./b7726e787e585f3bcc4709d1a042f4f9f7c80c66.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 58px;
+  gap: 12px;
+}
+.content-3-1-3-1 {
+  width: 322px;
+  height: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  font-size: 32px;
+}
+.content-3-1-3-2 {
+  width: 322px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-3-1-3-3 {
+  width: 167px;
+  height: 40px;
+  background-color: #0071e3;
+  border-radius: 999px;
+  gap: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.apple-content-3-2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 12px;
+}
+.apple-content-3-2-1 {
+  width: 100%;
+  height: 580px;
+  background-image: url(./ff948cacd279c7a6da7b42f7259842d3eef7e869.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 58px;
+  gap: 12px;
+}
+.content-3-2-1-1 {
+  width: 238px;
+  height: 44px;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-3-2-1-2 {
+  width: 370px;
+  height: 25px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f5f5f7;
+}
+.content-3-2-1-3 {
+  display: flex;
+  width: 199px;
+  height: 40px;
+  gap: 16px;
+}
+.content-3-2-1-3-1 {
+  width: 167px;
+  height: 40px;
+  background-color: #0071e3;
+  border-radius: 999px;
+  gap: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-3-2-1-3-2 {
+  width: 68px;
+  height: 40px;
+  border: 1px solid #2997ff;
+  border-radius: 999px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2997ff;
+  font-size: 16px;
+}
+.apple-content-3-2-2 {
+  width: 100%;
+  height: 580px;
+  background-image: url(./289563ba49fcacc7cacfaa9dee97b7af3642bb76.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 58px;
+  gap: 12px;
+}
+.content-3-2-2-1 {
+  width: 370px;
+  height: 44px;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-3-2-2-2 {
+  width: 370px;
+  height: 25px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-3-2-2-3 {
+  display: flex;
+  gap: 16px;
+  width: 199px;
+  height: 40px;
+}
+.content-3-2-2-3-1 {
+  width: 115px;
+  height: 40px;
+  background-color: #0071e3;
+  border-radius: 999px;
+  gap: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-3-2-2-3-2 {
+  width: 68px;
+  height: 44px;
+  border: 1px solid #2997ff;
+  border-radius: 999px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2997ff;
+  font-size: 16px;
+}
+.apple-content-3-2-3 {
+  width: 100%;
+  height: 580px;
+  background-image: url(./47cc645e82102fb94058ac8b07709b8b6d85fef7.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 58px;
+  gap: 16px;
+}
+.content-3-2-3-1 {
+  width: 322px;
+  height: 39px;
+  gap: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}
+.content-3-2-3-2 {
+  width: 322px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-3-2-3-3{
+  display: flex;
+  gap: 16px;
+  width: 246px;
+  height: 40px;
+}
+.content-3-2-3-3-1{
+  width: 118px;
+  height: 40px;
+  gap: 10px;
+  background-color: #0071E3;
+  border-radius: 999px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-3-2-3-3-2{
+  width: 112px;
+  height: 40px;
+  border: 1px solid #0071E3;
+  border-radius: 999px;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0071E3;
 }
