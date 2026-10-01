@@ -1,7 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   display: flex;
   flex-direction: column;
-  width: 1920px;
+  width: 100vw;
 }
 header {
   display: flex;
@@ -20,93 +26,12 @@ header {
   justify-content: center;
   align-items: center;
 }
-.header-store {
-  width: 30px;
-  height: 44px;
-  font-size: 12px;
+.all-headers {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-}
-.header-mac {
-  width: 24px;
-  height: 44px;
   font-size: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.header-ipad {
-  width: 24px;
   height: 44px;
-  font-size: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.header-iphone {
-  width: 38px;
-  height: 44px;
-  font-size: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.header-watch {
-  width: 35px;
-  height: 44px;
-  font-size: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.header-vision {
-  width: 33px;
-  height: 44px;
-  font-size: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.header-airpods {
-  width: 43px;
-  height: 44px;
-  font-size: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.header-tv {
-  width: 62px;
-  height: 44px;
-  font-size: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.header-entertaiment {
-  width: 77px;
-  height: 44px;
-  font-size: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.header-accessories {
-  width: 66px;
-  height: 44px;
-  font-size: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.header-support {
-  width: 44px;
-  height: 44px;
-  font-size: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .magnifiying-class-icon {
   width: 15px;
@@ -122,8 +47,15 @@ header {
   justify-content: center;
   align-items: center;
 }
+.burger-icon {
+  width: 48px;
+  height: 48px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
 .Apple-all-content {
-  width: 1920px;
+  width: 100vw;
   height: 3160px;
   gap: 12px;
   display: flex;
@@ -134,10 +66,9 @@ header {
   height: 692px;
   display: flex;
   flex-direction: column;
-  justify-content:;
   align-items: center;
   color: white;
-  background-image: url(./ec3175b4a85620366114b7dc1d62789aa36c0536.jpg);
+  background-image: url("./ec3175b4a85620366114b7dc1d62789aa36c0536.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -558,6 +489,9 @@ header {
   width: 100%;
   height: 580px;
   background-image: url(./47cc645e82102fb94058ac8b07709b8b6d85fef7.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -581,30 +515,522 @@ header {
   justify-content: center;
   align-items: center;
 }
-.content-3-2-3-3{
+.content-3-2-3-3 {
   display: flex;
   gap: 16px;
   width: 246px;
   height: 40px;
 }
-.content-3-2-3-3-1{
+.content-3-2-3-3-1 {
   width: 118px;
   height: 40px;
   gap: 10px;
-  background-color: #0071E3;
+  background-color: #0071e3;
   border-radius: 999px;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.content-3-2-3-3-2{
+.content-3-2-3-3-2 {
   width: 112px;
   height: 40px;
-  border: 1px solid #0071E3;
+  border: 1px solid #0071e3;
   border-radius: 999px;
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  color: #0071E3;
+  color: #0071e3;
+}
+.tablet-apple-content {
+  height: 1494px;
+  gap: 12px;
+  width: 100vw;
+  display: none;
+}
+.tablet-apple-content-1 {
+  height: 100%;
+
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.tablet-apple-content-1-1 {
+  width: 100%;
+  height: 490px;
+  color: white;
+  background-image: url(./da862da9442f25fda2746d5c8c6f9ec5d93a3101.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 42px;
+  gap: 12px;
+}
+.tablet-apple-content-1-1-1 {
+  width: 144px;
+  height: 36px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablet-apple-content-1-1-2 {
+  width: 241px;
+  height: 69px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablet-apple-content-1-1-3 {
+  display: flex;
+  gap: 12px;
+  width: 241px;
+  height: 36px;
+}
+.content-1-1-3-1 {
+  width: 107px;
+  height: 36px;
+  background-color: #0071e3;
+  border-radius: 999px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-1-1-3-2 {
+  width: 66px;
+  height: 36px;
+  gap: 10px;
+  border: 1px solid #2997ff;
+  border-radius: 999px;
+  color: #2997ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablet-apple-content-1-2 {
+  width: 100%;
+  height: 490px;
+  background-image: url(./289563ba49fcacc7cacfaa9dee97b7af3642bb76.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 42px;
+  gap: 16px;
+}
+.tablet-apple-content-1-2-1 {
+  width: 257px;
+  height: 36px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablet-apple-content-1-2-2 {
+  width: 257px;
+  height: 23px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablet-apple-content-1-2-3 {
+  width: 257px;
+  height: 36px;
+  gap: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-1-2-3-1 {
+  width: 107px;
+  height: 36px;
+  background-color: #0071e3;
+  border-radius: 999px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.content-1-2-3-2 {
+  width: 66px;
+  height: 36px;
+  gap: 10px;
+  border: 1px solid #2997ff;
+  border-radius: 999px;
+  color: #2997ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablet-apple-content-1-3 {
+  width: 100%;
+  height: 490px;
+  background-image: url(./746c1b2b65a2e4b11fef8ab2ad8c64e76020395a.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
+  padding-bottom: 42px;
+  gap: 12px;
+}
+.tablet-apple-content-1-3-1 {
+  width: 314px;
+  height: 36px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablet-apple-content-1-3-2 {
+  width: 314px;
+  height: 60px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablet-apple-content-1-3-3 {
+  width: 126px;
+  height: 36px;
+  background-color: #0071e3;
+  border-radius: 999px;
+  gap: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablet-apple-content-2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  gap: 12px;
+}
+.tablet-apple-content-2-1 {
+  width: 100%;
+  height: 490px;
+  background-image: url(./a8f490366130e01428147e18eef7d270e446275c.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 46px;
+}
+.tablet-apple-content-2-1-1 {
+  width: 152px;
+  height: 34px;
+  gap: 4px;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablet-apple-content-2-1-2 {
+  width: 152px;
+  height: 16px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablet-apple-content-2-1-3 {
+  width: 148px;
+  height: 25px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablet-apple-content-2-1-4 {
+  display: flex;
+  width: 235px;
+  height: 36px;
+  gap: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-2-1-4-1 {
+  width: 126px;
+  height: 36px;
+  background-color: #0071e3;
+  border-radius: 999px;
+  gap: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-2-1-4-2 {
+  width: 66px;
+  height: 36px;
+  gap: 10px;
+  border: 1px solid #2997ff;
+  border-radius: 999px;
+  color: #2997ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablet-apple-content-2-2 {
+  width: 100%;
+  height: 490px;
+  background-image: url(./faea9510bf75f3061ee55679cd22eea7569fcf6a.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.tablet-apple-content-2-2-1 {
+  width: 257px;
+  height: 72px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablet-apple-content-2-2-2 {
+  width: 257px;
+  height: 40px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablet-apple-content-2-2-3 {
+  width: 107px;
+  height: 36px;
+  background-color: #0071e3;
+  border-radius: 999px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablet-apple-content-2-3 {
+  width: 100%;
+  height: 490px;
+  background-image: url(./b7726e787e585f3bcc4709d1a042f4f9f7c80c66.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 46px;
+  gap: 16px;
+}
+.tablet-apple-content-2-3-1 {
+  width: 285px;
+  height: 34px;
+  gap: 4px;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablet-apple-content-2-3-2 {
+  width: 285px;
+  height: 40px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablet-apple-content-2-3-3 {
+  width: 150px;
+  height: 36px;
+  gap: 10px;
+  background-color: #0071e3;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.tablet-contents {
+  width: 100vw;
+  height: 1312px;
+  gap: 12px;
+  display: none;
+  flex-direction: column;
+}
+.tablet-content-1 {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-image: url("./ec3175b4a85620366114b7dc1d62789aa36c0536.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  gap: 16px;
+  padding-top: 55px;
+}
+.tablet-content-1-1 {
+  width: 405px;
+  height: 60px;
+  font-size: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablet-content-1-2 {
+  width: 405px;
+  height: 32px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablet-content-1-3 {
+  display: flex;
+  gap: 16px;
+}
+.tabletcontent-1-3-1 {
+  width: 123px;
+  height: 44px;
+  background-color: #0071e3;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+.tabletcontent-1-3-2 {
+  width: 68px;
+  height: 44px;
+  border: 1px solid #2997ff;
+  border-radius: 999px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2997ff;
+  font-size: 16px;
+}
+.tablet-content-2 {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(./6e2272f55593e27e01766f0a588a5585328895e1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-top: 55px;
+  gap: 16px;
+}
+.tablet-content-2-1 {
+  width: 405px;
+  height: 60px;
+  font-size: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablet-content-2-2 {
+  width: 405px;
+  height: 32px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablet-content-2-3 {
+  width: 207px;
+  height: 44px;
+  gap: 16px;
+  display: flex;
+}
+.tabletcontent-2-3-1 {
+  width: 123px;
+  height: 44px;
+  background-color: white;
+  gap: 10px;
+  color: black;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tabletcontent-2-3-2 {
+  width: 68px;
+  height: 44px;
+  border: 1px solid white;
+  border-radius: 999px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .tablet-apple-content {
+    display: flex;
+  }
+
+  .all-headers {
+    display: none;
+  }
+  .burger-icon {
+    display: flex;
+  }
+  .Apple-all-content {
+    display: none;
+  }
+  .apple-content-1 {
+    display: block;
+  }
+  .apple-content-2 {
+    display: block;
+  }
+  .tablet-contents {
+    display: flex;
+  }
+}
+@media (max-width: 390px) {
+  .tablet-apple-content {
+    display: block;
+  }
 }
