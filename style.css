@@ -999,6 +999,119 @@ header {
   color: white;
   font-size: 16px;
 }
+.web-container {
+  width: 100vw;
+  height: 668px;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  overflow-x: scroll;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  scrollbar-width: none;
+}
+.item {
+  height: 100%;
+  flex-shrink: 0;
+  width: 1250px;
+  scroll-snap-align: center;
+}
+.item-1 {
+  background-image: url(./0ef20c456c1f9e35f8cfc952ddd2340d8debbb86.jpg);
+}
+.item-2 {
+  background-image: url(./a71fa31c036fa4ebdb97754279e6264a8511c26a.jpg);
+}
+.item-3 {
+  background-image: url(./a96232d2cffc7341eddba9393942d27673a1bb78.jpg);
+}
+a {
+  width: 8px;
+  height: 8px;
+  background-color: grey;
+  border-radius: 99px;
+}
+.ankhors {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  gap: 14px;
+}
+.slider {
+  gap: 20px;
+  display: flex;
+  width: 4170px;
+  height: 258px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+#iitem {
+  height: 100%;
+  width: 417px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: slider 60s linear infinite;
+  animation-delay: calc((56.5s / 10) * (var(--iitem) - 6.5));
+}
+button {
+  opacity: 0;
+  transition: all 0.5s ease;
+  margin-top: 10px;
+}
+@keyframes slider {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -417px;
+  }
+}
+.slider:hover .iitem {
+  filter: grayscale(1);
+  animation-play-state: paused;
+}
+.slider .iitem:hover {
+  filter: grayscale(0);
+}
+.iitem:hover button {
+  opacity: 1;
+  margin-top: 0;
+}
+.slider-item-1 {
+  background-image: url(./1.jpg);
+}
+.slider-item-2 {
+  background-image: url(./2.jpg);
+}
+.slider-item-3 {
+  background-image: url(./3.jpg);
+}
+.slider-item-4 {
+  background-image: url(./4.jpg);
+}
+.slider-item-5 {
+  background-image: url(./5.jpg);
+}
+.slider-item-6 {
+  background-image: url(./6.jpg);
+}
+.slider-item-7 {
+  background-image: url(./7.jpg);
+}
+.slider-item-8 {
+  background-image: url(./8.jpg);
+}
+.slider-item-9 {
+  background-image: url(./9.jpg);
+}
+.slider-item-10 {
+  background-image: url(./10.jpg);
+}
 
 @media (max-width: 768px) {
   header {
@@ -1032,5 +1145,13 @@ header {
 @media (max-width: 390px) {
   .tablet-apple-content {
     display: block;
+  }
+  .tablet-content-1 {
+    background-image: url("./4d617ff6192318499aff8aebb56aaf232c8f00d4.jpg");
+    justify-content: end;
+    padding-bottom: 20px;
+  }
+  .tablet-content-2 {
+    background-image: url(./bca14fea5cc383f10eb575ae23034d12bd94613d.jpg);
   }
 }
